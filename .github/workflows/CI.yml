@@ -16,7 +16,7 @@ jobs:
       uses: sersoft-gmbh/xcodebuild-action@v3
       with:
         project: EssentialFeed.xcodeproj
-        schema: CI
+        scheme: CI
         destination: platform=macOS
         action: test
       
