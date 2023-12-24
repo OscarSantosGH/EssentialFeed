@@ -9,8 +9,7 @@
     }
   ],
   "defaultOptions" : {
-    "testTimeoutsEnabled" : true,
-    "threadSanitizerEnabled" : true
+    "testTimeoutsEnabled" : true
   },
   "testTargets" : [
     {
