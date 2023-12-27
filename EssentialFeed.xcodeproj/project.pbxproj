@@ -25,6 +25,7 @@
 		83CDD4282B3B6A3900B256CE /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD4272B3B6A3900B256CE /* CacheFeedUseCaseTests.swift */; };
 		83CDD42B2B3CA82F00B256CE /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD42A2B3CA82F00B256CE /* LocalFeedLoader.swift */; };
 		83CDD42D2B3CAB1D00B256CE /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD42C2B3CAB1D00B256CE /* FeedStore.swift */; };
+		83CDD42F2B3CC5EA00B256CE /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD42E2B3CC5EA00B256CE /* RemoteFeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		83CDD4272B3B6A3900B256CE /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		83CDD42A2B3CA82F00B256CE /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		83CDD42C2B3CAB1D00B256CE /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
+		83CDD42E2B3CC5EA00B256CE /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				83A8BFD42B2576A400679FE3 /* RemoteFeedLoader.swift */,
 				83A8BFD82B282EF800679FE3 /* FeedItemsMapper.swift */,
+				83CDD42E2B3CC5EA00B256CE /* RemoteFeedItem.swift */,
 				83A8BFD62B282E8E00679FE3 /* HTTPClient.swift */,
 				83A8BFE22B2FE24F00679FE3 /* URLSessionHTTPClient.swift */,
 			);
@@ -349,6 +352,7 @@
 			files = (
 				83A8BFD92B282EF800679FE3 /* FeedItemsMapper.swift in Sources */,
 				83A8BFCF2B243B5400679FE3 /* FeedLoader.swift in Sources */,
+				83CDD42F2B3CC5EA00B256CE /* RemoteFeedItem.swift in Sources */,
 				83A8BFD52B2576A400679FE3 /* RemoteFeedLoader.swift in Sources */,
 				83CDD42D2B3CAB1D00B256CE /* FeedStore.swift in Sources */,
 				83CDD42B2B3CA82F00B256CE /* LocalFeedLoader.swift in Sources */,
