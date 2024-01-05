@@ -35,6 +35,7 @@
 		83CDD43E2B43B92A00B256CE /* FeedCachePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD43D2B43B92A00B256CE /* FeedCachePolicy.swift */; };
 		83CDD4402B44AC4D00B256CE /* CodableFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD43F2B44AC4D00B256CE /* CodableFeedStoreTests.swift */; };
 		83CDD4422B461BCF00B256CE /* CodableFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD4412B461BCF00B256CE /* CodableFeedStore.swift */; };
+		83CDD4442B47921200B256CE /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CDD4432B47921200B256CE /* FeedStoreSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		83CDD43D2B43B92A00B256CE /* FeedCachePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCachePolicy.swift; sourceTree = "<group>"; };
 		83CDD43F2B44AC4D00B256CE /* CodableFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStoreTests.swift; sourceTree = "<group>"; };
 		83CDD4412B461BCF00B256CE /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
+		83CDD4432B47921200B256CE /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				83CDD4322B3DF46900B256CE /* LoadFeedFromCacheUseCaseTests.swift */,
 				83CDD4372B422AB100B256CE /* ValidateFeedCacheUseCaseTests.swift */,
 				83CDD43F2B44AC4D00B256CE /* CodableFeedStoreTests.swift */,
+				83CDD4432B47921200B256CE /* FeedStoreSpecs.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				83CDD4382B422AB100B256CE /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				83CDD4362B3DF67A00B256CE /* FeedStoreSpy.swift in Sources */,
 				83CDD4332B3DF46900B256CE /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
+				83CDD4442B47921200B256CE /* FeedStoreSpecs.swift in Sources */,
 				83A8BFC22B24395500679FE3 /* EssentialFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
