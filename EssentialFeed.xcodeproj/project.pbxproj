@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		836651642B4CD551001B8BF2 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */; };
+		836651732B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
+		836651742B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
+		836651752B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
+		836651762B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
+		836651772B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
+		836651782B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
 		83A8BFBD2B24395500679FE3 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; };
 		83A8BFC22B24395500679FE3 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFC12B24395500679FE3 /* EssentialFeedTests.swift */; };
 		83A8BFC32B24395500679FE3 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A8BFB72B24395500679FE3 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +93,7 @@
 		8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651632B4CD551001B8BF2 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651712B4CD619001B8BF2 /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
+		836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CI_iOSTestPlan.xctestplan; sourceTree = "<group>"; };
 		83A8BFB42B24395500679FE3 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A8BFB72B24395500679FE3 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		83A8BFBC2B24395500679FE3 /* EssentialFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +110,7 @@
 		83A8BFE82B32C0E600679FE3 /* EssentialFeedAPIEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedAPIEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A8BFEA2B32C0E600679FE3 /* EssentialFeedAPIEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedAPIEndToEndTests.swift; sourceTree = "<group>"; };
 		83CDD4222B34143D00B256CE /* EssentialFeedTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeedTestPlan.xctestplan; sourceTree = "<group>"; };
-		83CDD4232B34145500B256CE /* CITestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CITestPlan.xctestplan; sourceTree = "<group>"; };
+		83CDD4232B34145500B256CE /* CI_macOSTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_macOSTestPlan.xctestplan; sourceTree = "<group>"; };
 		83CDD4272B3B6A3900B256CE /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		83CDD42A2B3CA82F00B256CE /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
 		83CDD42C2B3CAB1D00B256CE /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
@@ -297,7 +304,8 @@
 				83CDD46A2B4A4F0300B256CE /* EssentialFeedCacheIntegrationTests.xctestplan */,
 				83CDD4222B34143D00B256CE /* EssentialFeedTestPlan.xctestplan */,
 				836651712B4CD619001B8BF2 /* EssentialFeediOS.xctestplan */,
-				83CDD4232B34145500B256CE /* CITestPlan.xctestplan */,
+				83CDD4232B34145500B256CE /* CI_macOSTestPlan.xctestplan */,
+				836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */,
 			);
 			path = "Test Plans";
 			sourceTree = "<group>";
@@ -556,6 +564,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651772B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +572,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651782B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +580,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651732B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +588,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651742B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651752B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +604,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836651762B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
