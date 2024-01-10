@@ -15,10 +15,10 @@
 		836651772B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
 		836651782B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 836651722B4CD8E6001B8BF2 /* CI_iOSTestPlan.xctestplan */; };
 		8366517E2B4DB976001B8BF2 /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366517D2B4DB976001B8BF2 /* FeedViewControllerTests.swift */; };
-		836651802B4DEF9B001B8BF2 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; };
-		836651812B4DEF9B001B8BF2 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		836651852B4DF2E8001B8BF2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFE02B2E513900679FE3 /* XCTestCase+MemoryLeakTracking.swift */; };
 		836651872B4E7866001B8BF2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651862B4E7866001B8BF2 /* FeedViewController.swift */; };
+		836651882B4F109C001B8BF2 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; platformFilter = ios; };
+		836651892B4F109C001B8BF2 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83A8BFBD2B24395500679FE3 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; };
 		83A8BFC22B24395500679FE3 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFC12B24395500679FE3 /* EssentialFeedTests.swift */; };
 		83A8BFC32B24395500679FE3 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A8BFB72B24395500679FE3 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -102,13 +102,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		836651842B4DEF9B001B8BF2 /* Embed Frameworks */ = {
+		8366518A2B4F109C001B8BF2 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				836651812B4DEF9B001B8BF2 /* EssentialFeed.framework in Embed Frameworks */,
+				836651892B4F109C001B8BF2 /* EssentialFeed.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836651802B4DEF9B001B8BF2 /* EssentialFeed.framework in Frameworks */,
+				836651882B4F109C001B8BF2 /* EssentialFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 				836651582B4CD550001B8BF2 /* Sources */,
 				836651592B4CD550001B8BF2 /* Frameworks */,
 				8366515A2B4CD550001B8BF2 /* Resources */,
-				836651842B4DEF9B001B8BF2 /* Embed Frameworks */,
+				8366518A2B4F109C001B8BF2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -747,6 +747,7 @@
 		};
 		836651832B4DEF9B001B8BF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 83A8BFB32B24395500679FE3 /* EssentialFeed */;
 			targetProxy = 836651822B4DEF9B001B8BF2 /* PBXContainerItemProxy */;
 		};
@@ -796,10 +797,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oscarsantos.EssentialFeediOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -831,9 +834,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oscarsantos.EssentialFeediOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
