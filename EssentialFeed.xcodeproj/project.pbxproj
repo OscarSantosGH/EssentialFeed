@@ -24,7 +24,6 @@
 		836651852B4DF2E8001B8BF2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFE02B2E513900679FE3 /* XCTestCase+MemoryLeakTracking.swift */; };
 		836651872B4E7866001B8BF2 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651862B4E7866001B8BF2 /* FeedViewController.swift */; };
 		836651882B4F109C001B8BF2 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; platformFilter = ios; };
-		836651892B4F109C001B8BF2 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8366518F2B5053ED001B8BF2 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8366518E2B5053ED001B8BF2 /* FeedImageCell.swift */; };
 		836651912B505D70001B8BF2 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651902B505D70001B8BF2 /* UIView+Shimmering.swift */; };
 		836651942B5083BE001B8BF2 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651932B5083BE001B8BF2 /* UIImage+TestHelpers.swift */; };
@@ -121,20 +120,6 @@
 			remoteInfo = EssentialFeed;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8366518A2B4F109C001B8BF2 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				836651892B4F109C001B8BF2 /* EssentialFeed.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		83191BE72B53912E00FB47E9 /* FeedImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImagePresenter.swift; sourceTree = "<group>"; };
@@ -587,7 +572,6 @@
 				836651582B4CD550001B8BF2 /* Sources */,
 				836651592B4CD550001B8BF2 /* Frameworks */,
 				8366515A2B4CD550001B8BF2 /* Resources */,
-				8366518A2B4F109C001B8BF2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
