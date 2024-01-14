@@ -7,28 +7,38 @@
 
 import UIKit
 
-public final class FeedViewController: UITableViewController, UITableViewDataSourcePrefetching {
-    public var refreshController: FeedRefreshViewController?
+protocol FeedViewControllerDelegate {
+    func didRequestFeedRefresh()
+}
+
+public final class FeedViewController: UITableViewController, UITableViewDataSourcePrefetching, FeedLoadingView {
+    var delegate: FeedViewControllerDelegate?
     var tableModel = [FeedImageCellController]() {
         didSet { tableView.reloadData() }
     }
-    private var onViewIsAppearing: ((FeedViewController) -> Void)?
     
-    convenience init(refreshController: FeedRefreshViewController) {
-        self.init()
-        self.refreshController = refreshController
-    }
+    private var onViewIsAppearing: ((FeedViewController) -> Void)?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.prefetchDataSource = self
-        refreshControl = refreshController?.view
-        refreshController?.refresh()
+        refresh()
         
         onViewIsAppearing = { vc in
             vc.refreshControl?.beginRefreshing()
             vc.onViewIsAppearing = nil
+        }
+    }
+    
+    @IBAction private func refresh() {
+        delegate?.didRequestFeedRefresh()
+    }
+    
+    func display(_ viewModel: FeedLoadingViewModel) {
+        if viewModel.isLoading {
+            refreshControl?.beginRefreshing()
+        } else {
+            refreshControl?.endRefreshing()
         }
     }
     
@@ -43,11 +53,17 @@ public final class FeedViewController: UITableViewController, UITableViewDataSou
     }
     
     public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return cellController(forRowAt: indexPath).view()
+        return cellController(forRowAt: indexPath).view(in: tableView)
     }
     
     public override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         cancelCellControllerLoad(forRowAt: indexPath)
+    }
+    
+    public override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let cellController = cellController(forRowAt: indexPath)
+        (cell as? FeedImageCell).map(cellController.setCell)
+        cellController.preload()
     }
     
     public func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
