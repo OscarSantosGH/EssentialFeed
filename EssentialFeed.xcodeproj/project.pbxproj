@@ -339,10 +339,9 @@
 		8366519D2B508580001B8BF2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				838B34C22B5C73EC0027762A /* Helpers */,
 				8366518E2B5053ED001B8BF2 /* FeedImageCell.swift */,
-				83191BEF2B547E7A00FB47E9 /* UIImageView+Animations.swift */,
-				83191BF12B547EAA00FB47E9 /* UITableView+Dequeueing.swift */,
-				836651902B505D70001B8BF2 /* UIView+Shimmering.swift */,
+				838B34C02B5C71140027762A /* ErrorView.swift */,
 				83191BED2B547C0900FB47E9 /* Feed.storyboard */,
 			);
 			path = Views;
@@ -395,6 +394,7 @@
 				83191BE92B53947300FB47E9 /* FeedLoadingViewModel.swift */,
 				83191BE72B53912E00FB47E9 /* FeedImagePresenter.swift */,
 				836651B62B520120001B8BF2 /* FeedImageViewModel.swift */,
+				838B34BE2B5C6F2F0027762A /* FeedErrorViewModel.swift */,
 				83191BF72B54D77500FB47E9 /* Feed.strings */,
 			);
 			path = "Feed Presentation";
@@ -847,6 +847,7 @@
 				83191C042B55044700FB47E9 /* FeedViewAdapter.swift in Sources */,
 				836651BA2B538486001B8BF2 /* FeedPresenter.swift in Sources */,
 				836651AB2B508BC0001B8BF2 /* FeedImageDataLoader.swift in Sources */,
+				838B34C42B5C74120027762A /* UIRefreshControl+Helpers.swift in Sources */,
 				83191C002B5503EE00FB47E9 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				83191BEC2B53949600FB47E9 /* FeedViewModel.swift in Sources */,
 				83191C062B55046700FB47E9 /* MainQueueDispatchDecorator.swift in Sources */,
@@ -859,7 +860,9 @@
 				8366518F2B5053ED001B8BF2 /* FeedImageCell.swift in Sources */,
 				836651B72B520120001B8BF2 /* FeedImageViewModel.swift in Sources */,
 				83191BF02B547E7A00FB47E9 /* UIImageView+Animations.swift in Sources */,
+				838B34C12B5C71140027762A /* ErrorView.swift in Sources */,
 				836651AF2B509534001B8BF2 /* FeedImageCellController.swift in Sources */,
+				838B34BF2B5C6F2F0027762A /* FeedErrorViewModel.swift in Sources */,
 				83191C082B55048400FB47E9 /* WeakRefVirtualProxy.swift in Sources */,
 				836651B22B509671001B8BF2 /* FeedUIComposer.swift in Sources */,
 			);
