@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		83191BE82B53912E00FB47E9 /* FeedImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191BE72B53912E00FB47E9 /* FeedImagePresenter.swift */; };
 		83191BEE2B547C0900FB47E9 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83191BED2B547C0900FB47E9 /* Feed.storyboard */; };
-		83191BFC2B54D8D400FB47E9 /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191BFB2B54D8D400FB47E9 /* FeedLocalizationTests.swift */; };
 		83191BFE2B54DA4B00FB47E9 /* FeedUIIntegrationTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191BFD2B54DA4B00FB47E9 /* FeedUIIntegrationTests+Localization.swift */; };
 		83191C002B5503EE00FB47E9 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191BFF2B5503EE00FB47E9 /* FeedImageDataLoaderPresentationAdapter.swift */; };
 		83191C022B55041A00FB47E9 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191C012B55041A00FB47E9 /* FeedLoaderPresentationAdapter.swift */; };
@@ -51,6 +50,7 @@
 		838B34D52B5C7E730027762A /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B34D12B5C7E730027762A /* UITableView+Dequeueing.swift */; };
 		838B34D62B5C7E730027762A /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B34D22B5C7E730027762A /* UIRefreshControl+Helpers.swift */; };
 		838B34D72B5C7E730027762A /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B34D32B5C7E730027762A /* UIView+Shimmering.swift */; };
+		838B34DC2B5C85FF0027762A /* FeedLocalizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83191BFB2B54D8D400FB47E9 /* FeedLocalizationTests.swift */; };
 		83A8BFBD2B24395500679FE3 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8BFB42B24395500679FE3 /* EssentialFeed.framework */; };
 		83A8BFC22B24395500679FE3 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFC12B24395500679FE3 /* EssentialFeedTests.swift */; };
 		83A8BFC32B24395500679FE3 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A8BFB72B24395500679FE3 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -270,14 +270,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83191BFA2B54D8AB00FB47E9 /* Feed Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				83191BFB2B54D8D400FB47E9 /* FeedLocalizationTests.swift */,
-			);
-			path = "Feed Presentation";
-			sourceTree = "<group>";
-		};
 		8366515D2B4CD551001B8BF2 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +283,6 @@
 		836651672B4CD551001B8BF2 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				83191BFA2B54D8AB00FB47E9 /* Feed Presentation */,
 				836651922B5083A0001B8BF2 /* Helpers */,
 				836651A62B5089A2001B8BF2 /* Feed UI */,
 			);
@@ -392,6 +383,7 @@
 		838B34AA2B5C5EAD0027762A /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				83191BFB2B54D8D400FB47E9 /* FeedLocalizationTests.swift */,
 				838B34AB2B5C5EEC0027762A /* FeedPresenterTests.swift */,
 			);
 			path = "Feed Presentation";
@@ -870,7 +862,6 @@
 				8366517E2B4DB976001B8BF2 /* FeedUIIntegrationTests.swift in Sources */,
 				836651A52B508839001B8BF2 /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				836651982B50847A001B8BF2 /* UIButton+TestHelpers.swift in Sources */,
-				83191BFC2B54D8D400FB47E9 /* FeedLocalizationTests.swift in Sources */,
 				836651962B50842C001B8BF2 /* UIRefreshControl+TestHelpers.swift in Sources */,
 				83191BFE2B54DA4B00FB47E9 /* FeedUIIntegrationTests+Localization.swift in Sources */,
 				8366519A2B5084C0001B8BF2 /* UIControl+TestHelpers.swift in Sources */,
@@ -915,6 +906,7 @@
 			files = (
 				83CDD4462B47B95800B256CE /* XCTestCase+FeedStoreSpecs.swift in Sources */,
 				83A8BFD22B24442100679FE3 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
+				838B34DC2B5C85FF0027762A /* FeedLocalizationTests.swift in Sources */,
 				83CDD44F2B4A1E0D00B256CE /* CoreDataFeedStoreTests.swift in Sources */,
 				83CDD4482B47C9DA00B256CE /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */,
 				83A8BFE12B2E513900679FE3 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
