@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8364BD9F2B61D48800E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BD9E2B61D48800E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift */; };
+		8364BDA02B61D9C400E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364BD9E2B61D48800E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		838B350E2B5DFF7E0027762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B350D2B5DFF7E0027762A /* AppDelegate.swift */; };
 		838B35102B5DFF7E0027762A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B350F2B5DFF7E0027762A /* SceneDelegate.swift */; };
 		838B35122B5DFF7E0027762A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838B35112B5DFF7E0027762A /* ViewController.swift */; };
@@ -231,7 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8364BD9F2B61D48800E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				8364BDA02B61D9C400E9AC6F /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
