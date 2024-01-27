@@ -99,6 +99,7 @@
 		83A8E0212B65A29900EF424A /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		83A8E02A2B65AB2900EF424A /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		83A8E02C2B65ADBC00EF424A /* EssentialAppUIAcceptanceTestPlan.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EssentialAppUIAcceptanceTestPlan.xctestplan; sourceTree = "<group>"; };
+		83A8E02F2B65AEE800EF424A /* CI_iOSTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOSTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +187,7 @@
 			children = (
 				83A8DFF22B62CCCE00EF424A /* EssentialAppTestPlan.xctestplan */,
 				83A8E02C2B65ADBC00EF424A /* EssentialAppUIAcceptanceTestPlan.xctestplan */,
+				83A8E02F2B65AEE800EF424A /* CI_iOSTestPlan.xctestplan */,
 			);
 			path = "Test Plans";
 			sourceTree = "<group>";
