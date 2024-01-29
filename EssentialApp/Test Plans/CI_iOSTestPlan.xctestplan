@@ -52,14 +52,6 @@
         "identifier" : "83A8DFD42B62CC6E00EF424A",
         "name" : "EssentialAppTests"
       }
-    },
-    {
-      "parallelizable" : true,
-      "target" : {
-        "containerPath" : "container:EssentialApp.xcodeproj",
-        "identifier" : "83A8E01E2B65A29900EF424A",
-        "name" : "EssentialAppUIAcceptanceTests"
-      }
     }
   ],
   "version" : 1
