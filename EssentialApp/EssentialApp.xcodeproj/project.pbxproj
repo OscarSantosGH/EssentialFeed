@@ -50,6 +50,7 @@
 		83A8E05D2B67749E00EF424A /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0502B67749D00EF424A /* UIControl+TestHelpers.swift */; };
 		83A8E05F2B6777E100EF424A /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E05E2B6777E100EF424A /* FeedAcceptanceTests.swift */; };
 		83A8E0612B677BA500EF424A /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0602B677BA500EF424A /* HTTPClientStub.swift */; };
+		83A8E0632B677BFE00EF424A /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		83A8E0542B67749E00EF424A /* UIButton+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+TestHelpers.swift"; sourceTree = "<group>"; };
 		83A8E05E2B6777E100EF424A /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		83A8E0602B677BA500EF424A /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
+		83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 				83A8E0132B6436EB00EF424A /* FeedImageDataLoaderSpy.swift */,
 				83A8E0152B6437EA00EF424A /* XCTestCase+FeedImageDataLoader.swift */,
 				83A8E0602B677BA500EF424A /* HTTPClientStub.swift */,
+				83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				83A8E0312B67717000EF424A /* SceneDelegateTests.swift in Sources */,
 				83A8E0552B67749E00EF424A /* FeedUIIntegrationTests+Assertions.swift in Sources */,
 				83A8E0582B67749E00EF424A /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
+				83A8E0632B677BFE00EF424A /* InMemoryFeedStore.swift in Sources */,
 				83A8E0082B642C6900EF424A /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				83A8E05A2B67749E00EF424A /* UIImage+TestHelpers.swift in Sources */,
 				83A8E0142B6436EB00EF424A /* FeedImageDataLoaderSpy.swift in Sources */,
