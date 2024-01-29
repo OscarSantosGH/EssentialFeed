@@ -34,6 +34,7 @@
 		83A8E0222B65A29900EF424A /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0212B65A29900EF424A /* EssentialAppUIAcceptanceTests.swift */; };
 		83A8E02B2B65AB2900EF424A /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E02A2B65AB2900EF424A /* DebuggingSceneDelegate.swift */; };
 		83A8E02D2B65ADBC00EF424A /* EssentialAppUIAcceptanceTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 83A8E02C2B65ADBC00EF424A /* EssentialAppUIAcceptanceTestPlan.xctestplan */; };
+		83A8E0312B67717000EF424A /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0302B67717000EF424A /* SceneDelegateTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		83A8E02A2B65AB2900EF424A /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		83A8E02C2B65ADBC00EF424A /* EssentialAppUIAcceptanceTestPlan.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EssentialAppUIAcceptanceTestPlan.xctestplan; sourceTree = "<group>"; };
 		83A8E02F2B65AEE800EF424A /* CI_iOSTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOSTestPlan.xctestplan; sourceTree = "<group>"; };
+		83A8E0302B67717000EF424A /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				83A8DFFE2B62D09000EF424A /* FeedImageDataLoaderWithFallbackCompositeTests.swift */,
 				83A8E0072B642C6900EF424A /* FeedLoaderCacheDecoratorTests.swift */,
 				83A8E0112B64366500EF424A /* FeedImageDataLoaderCacheDecoratorTests.swift */,
+				83A8E0302B67717000EF424A /* SceneDelegateTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				83A8E0122B64366500EF424A /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				83A8E00C2B642E2300EF424A /* XCTestCase+FeedLoader.swift in Sources */,
 				83A8E0162B6437EA00EF424A /* XCTestCase+FeedImageDataLoader.swift in Sources */,
+				83A8E0312B67717000EF424A /* SceneDelegateTests.swift in Sources */,
 				83A8E0082B642C6900EF424A /* FeedLoaderCacheDecoratorTests.swift in Sources */,
 				83A8E0142B6436EB00EF424A /* FeedImageDataLoaderSpy.swift in Sources */,
 				83A8DFFF2B62D09000EF424A /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
