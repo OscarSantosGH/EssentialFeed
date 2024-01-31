@@ -51,6 +51,7 @@
 		83A8E05F2B6777E100EF424A /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E05E2B6777E100EF424A /* FeedAcceptanceTests.swift */; };
 		83A8E0612B677BA500EF424A /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0602B677BA500EF424A /* HTTPClientStub.swift */; };
 		83A8E0632B677BFE00EF424A /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */; };
+		83A8E0702B6A0C1E00EF424A /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E06F2B6A0C1E00EF424A /* UIView+TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		83A8E05E2B6777E100EF424A /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		83A8E0602B677BA500EF424A /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		83A8E06F2B6A0C1E00EF424A /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				83A8E0152B6437EA00EF424A /* XCTestCase+FeedImageDataLoader.swift */,
 				83A8E0602B677BA500EF424A /* HTTPClientStub.swift */,
 				83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */,
+				83A8E06F2B6A0C1E00EF424A /* UIView+TestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				83A8DFFF2B62D09000EF424A /* FeedImageDataLoaderWithFallbackCompositeTests.swift in Sources */,
 				83A8E0612B677BA500EF424A /* HTTPClientStub.swift in Sources */,
 				83A8E05D2B67749E00EF424A /* UIControl+TestHelpers.swift in Sources */,
+				83A8E0702B6A0C1E00EF424A /* UIView+TestHelpers.swift in Sources */,
 				83A8E05B2B67749E00EF424A /* UIRefreshControl+TestHelpers.swift in Sources */,
 				83A8DFDA2B62CC6E00EF424A /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				83A8E05F2B6777E100EF424A /* FeedAcceptanceTests.swift in Sources */,
