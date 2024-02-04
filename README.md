@@ -2,6 +2,7 @@
 
 [![CI-macOS](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/CI-macOS.yml/badge.svg)](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/CI-macOS.yml)
 [![CI-iOS](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/CI-iOS.yml/badge.svg)](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/CI-iOS.yml)
+[![Deploy](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/Deploy.yml/badge.svg)](https://github.com/OscarSantosGH/EssentialFeed/actions/workflows/Deploy.yml)
 
 ## About
 
