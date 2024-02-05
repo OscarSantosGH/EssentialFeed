@@ -38,6 +38,7 @@
 		83A8E0612B677BA500EF424A /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0602B677BA500EF424A /* HTTPClientStub.swift */; };
 		83A8E0632B677BFE00EF424A /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */; };
 		83A8E0702B6A0C1E00EF424A /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8E06F2B6A0C1E00EF424A /* UIView+TestHelpers.swift */; };
+		83D314462B717343000EDF83 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D314452B717343000EDF83 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		83A8E0602B677BA500EF424A /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		83A8E0622B677BFE00EF424A /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
 		83A8E06F2B6A0C1E00EF424A /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
+		83D314452B717343000EDF83 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				83A8DFC22B62CC6C00EF424A /* AppDelegate.swift */,
+				83D314452B717343000EDF83 /* CombineHelpers.swift */,
 				83A8DFC42B62CC6C00EF424A /* SceneDelegate.swift */,
 				83A8DFC62B62CC6C00EF424A /* ViewController.swift */,
 				83A8E03E2B67734100EF424A /* FeedUIComposer.swift */,
@@ -313,6 +316,7 @@
 			files = (
 				83A8E0472B67734100EF424A /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 				83A8DFC72B62CC6C00EF424A /* ViewController.swift in Sources */,
+				83D314462B717343000EDF83 /* CombineHelpers.swift in Sources */,
 				83A8DFC32B62CC6C00EF424A /* AppDelegate.swift in Sources */,
 				83A8E0452B67734100EF424A /* FeedViewAdapter.swift in Sources */,
 				83A8DFC52B62CC6C00EF424A /* SceneDelegate.swift in Sources */,
