@@ -31,6 +31,7 @@
 		83624A202B7AA0B700BA7EF2 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 83624A1F2B7AA0B700BA7EF2 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */; };
 		83624A222B7AA0FE00BA7EF2 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 83624A212B7AA0FE00BA7EF2 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */; };
 		83624A242B7AA15600BA7EF2 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 83624A232B7AA15600BA7EF2 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */; };
+		83624A262B7AA42700BA7EF2 /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83624A252B7AA42700BA7EF2 /* UIView+Container.swift */; };
 		836651642B4CD551001B8BF2 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */; };
 		836651852B4DF2E8001B8BF2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFE02B2E513900679FE3 /* XCTestCase+MemoryLeakTracking.swift */; };
 		836651872B4E7866001B8BF2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651862B4E7866001B8BF2 /* ListViewController.swift */; };
@@ -189,6 +190,7 @@
 		83624A1F2B7AA0B700BA7EF2 /* FEED_WITH_CONTENT_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_CONTENT_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		83624A212B7AA0FE00BA7EF2 /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		83624A232B7AA15600BA7EF2 /* LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light_extraExtraExtraLarge.png; sourceTree = "<group>"; };
+		83624A252B7AA42700BA7EF2 /* UIView+Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Container.swift"; sourceTree = "<group>"; };
 		8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651632B4CD551001B8BF2 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651712B4CD619001B8BF2 /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
@@ -390,6 +392,7 @@
 				838B352D2B5EDDD60027762A /* UIRefreshControl+Helpers.swift */,
 				838B352A2B5EDDD60027762A /* UITableView+Dequeueing.swift */,
 				83A8E0692B682F0400EF424A /* UITableView+HeaderSizing.swift */,
+				83624A252B7AA42700BA7EF2 /* UIView+Container.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1115,6 +1118,7 @@
 				83A8E06A2B682F0400EF424A /* UITableView+HeaderSizing.swift in Sources */,
 				838B35312B5EDDD70027762A /* UIRefreshControl+Helpers.swift in Sources */,
 				838B35302B5EDDD70027762A /* UIView+Shimmering.swift in Sources */,
+				83624A262B7AA42700BA7EF2 /* UIView+Container.swift in Sources */,
 				83624A1E2B7A9A0D00BA7EF2 /* CellController.swift in Sources */,
 				836651872B4E7866001B8BF2 /* ListViewController.swift in Sources */,
 				8366518F2B5053ED001B8BF2 /* FeedImageCell.swift in Sources */,
