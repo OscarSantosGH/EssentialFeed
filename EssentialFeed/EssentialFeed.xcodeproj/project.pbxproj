@@ -27,6 +27,7 @@
 		83624A172B7958C500BA7EF2 /* ImageCommentsSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83624A162B7958C500BA7EF2 /* ImageCommentsSnapshotTests.swift */; };
 		83624A1B2B795C9800BA7EF2 /* IMAGE_COMMENTS_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 83624A192B795C9800BA7EF2 /* IMAGE_COMMENTS_dark.png */; };
 		83624A1C2B795C9800BA7EF2 /* IMAGE_COMMENTS_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 83624A1A2B795C9800BA7EF2 /* IMAGE_COMMENTS_light.png */; };
+		83624A1E2B7A9A0D00BA7EF2 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83624A1D2B7A9A0D00BA7EF2 /* CellController.swift */; };
 		836651642B4CD551001B8BF2 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */; };
 		836651852B4DF2E8001B8BF2 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8BFE02B2E513900679FE3 /* XCTestCase+MemoryLeakTracking.swift */; };
 		836651872B4E7866001B8BF2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836651862B4E7866001B8BF2 /* ListViewController.swift */; };
@@ -181,6 +182,7 @@
 		83624A162B7958C500BA7EF2 /* ImageCommentsSnapshotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCommentsSnapshotTests.swift; sourceTree = "<group>"; };
 		83624A192B795C9800BA7EF2 /* IMAGE_COMMENTS_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_dark.png; sourceTree = "<group>"; };
 		83624A1A2B795C9800BA7EF2 /* IMAGE_COMMENTS_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGE_COMMENTS_light.png; sourceTree = "<group>"; };
+		83624A1D2B7A9A0D00BA7EF2 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 		8366515C2B4CD550001B8BF2 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651632B4CD551001B8BF2 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836651712B4CD619001B8BF2 /* EssentialFeediOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = EssentialFeediOS.xctestplan; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 		836249DE2B794DFE00BA7EF2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				83624A1D2B7A9A0D00BA7EF2 /* CellController.swift */,
 				836651862B4E7866001B8BF2 /* ListViewController.swift */,
 			);
 			path = Controllers;
@@ -1100,6 +1103,7 @@
 				83A8E06A2B682F0400EF424A /* UITableView+HeaderSizing.swift in Sources */,
 				838B35312B5EDDD70027762A /* UIRefreshControl+Helpers.swift in Sources */,
 				838B35302B5EDDD70027762A /* UIView+Shimmering.swift in Sources */,
+				83624A1E2B7A9A0D00BA7EF2 /* CellController.swift in Sources */,
 				836651872B4E7866001B8BF2 /* ListViewController.swift in Sources */,
 				8366518F2B5053ED001B8BF2 /* FeedImageCell.swift in Sources */,
 				838B34C92B5C7A950027762A /* ErrorView.swift in Sources */,
