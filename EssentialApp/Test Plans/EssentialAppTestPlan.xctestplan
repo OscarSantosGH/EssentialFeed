@@ -13,7 +13,8 @@
       "containerPath" : "container:EssentialApp.xcodeproj",
       "identifier" : "83A8DFBE2B62CC6C00EF424A",
       "name" : "EssentialApp"
-    }
+    },
+    "testExecutionOrdering" : "random"
   },
   "testTargets" : [
     {

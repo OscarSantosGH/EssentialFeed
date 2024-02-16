@@ -9,24 +9,49 @@ import UIKit
 import EssentialFeediOS
 
 extension ListViewController {
-    func replaceRefreshControlWithFakeForiOS17Support() {
-        let fake = FakeRefreshControl()
+    func simulateAppearance() {
+        if !isViewLoaded {
+            loadViewIfNeeded()
+            prepareForFirstAppearance()
+        }
+        beginAppearanceTransition(true, animated: false)
+        endAppearanceTransition()
+    }
+    
+    private func prepareForFirstAppearance() {
+        setSmallFrameToPreventRenderingCells()
+        replaceRefreshControlWithFakeForiOS17PlusSupport()
+    }
+    
+    private func setSmallFrameToPreventRenderingCells() {
+        tableView.frame = CGRect(x: 0, y: 0, width: 390, height: 1)
+    }
+    
+    private func replaceRefreshControlWithFakeForiOS17PlusSupport() {
+        let fakeRefreshControl = FakeUIRefreshControl()
         
         refreshControl?.allTargets.forEach { target in
             refreshControl?.actions(forTarget: target, forControlEvent: .valueChanged)?.forEach { action in
-                fake.addTarget(target, action: Selector(action), for: .valueChanged)
+                fakeRefreshControl.addTarget(target, action: Selector(action), for: .valueChanged)
             }
         }
         
-        refreshControl = fake
+        refreshControl = fakeRefreshControl
     }
     
-    public override func loadViewIfNeeded() {
-        super.loadViewIfNeeded()
+    private class FakeUIRefreshControl: UIRefreshControl {
+        private var _isRefreshing = false
         
-        tableView.frame = CGRect(x: 0, y: 0, width: 1, height: 1)
+        override var isRefreshing: Bool { _isRefreshing }
+        
+        override func beginRefreshing() {
+            _isRefreshing = true
+        }
+        
+        override func endRefreshing() {
+            _isRefreshing = false
+        }
     }
-    
     func simulateUserInitiatedReload() {
         refreshControl?.simulatePullToRefresh()
     }
@@ -55,35 +80,35 @@ extension ListViewController {
         let index = IndexPath(row: row, section: section)
         return ds?.tableView(tableView, cellForRowAt: index)
     }
-
+    
 }
 
 extension ListViewController {
     func numberOfRenderedComments() -> Int {
         numberOfRows(in: commentsSection)
     }
-
+    
     func commentMessage(at row: Int) -> String? {
         commentView(at: row)?.messageLabel.text
     }
-
+    
     func commentDate(at row: Int) -> String? {
         commentView(at: row)?.dateLabel.text
     }
-
+    
     func commentUsername(at row: Int) -> String? {
         commentView(at: row)?.usernameLabel.text
     }
-
+    
     private func commentView(at row: Int) -> ImageCommentCell? {
         cell(row: row, section: commentsSection) as? ImageCommentCell
     }
-
+    
     private var commentsSection: Int { 0 }
 }
 
 extension ListViewController {
-
+    
     @discardableResult
     func simulateFeedImageViewVisible(at index: Int) -> FeedImageCell? {
         return feedImageView(at: index) as? FeedImageCell
