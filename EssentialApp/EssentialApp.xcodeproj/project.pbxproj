@@ -11,7 +11,6 @@
 		83624A2A2B7C393F00BA7EF2 /* CommentsUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83624A292B7C393F00BA7EF2 /* CommentsUIIntegrationTests.swift */; };
 		83A8DFC32B62CC6C00EF424A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8DFC22B62CC6C00EF424A /* AppDelegate.swift */; };
 		83A8DFC52B62CC6C00EF424A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8DFC42B62CC6C00EF424A /* SceneDelegate.swift */; };
-		83A8DFC72B62CC6C00EF424A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A8DFC62B62CC6C00EF424A /* ViewController.swift */; };
 		83A8DFCC2B62CC6D00EF424A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A8DFCB2B62CC6D00EF424A /* Assets.xcassets */; };
 		83A8DFCF2B62CC6D00EF424A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A8DFCD2B62CC6D00EF424A /* LaunchScreen.storyboard */; };
 		83A8DFF72B62CE8800EF424A /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A8DFF52B62CE8800EF424A /* EssentialFeed.framework */; };
@@ -72,7 +71,6 @@
 		83A8DFBF2B62CC6C00EF424A /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A8DFC22B62CC6C00EF424A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A8DFC42B62CC6C00EF424A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83A8DFC62B62CC6C00EF424A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83A8DFCB2B62CC6D00EF424A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A8DFCE2B62CC6D00EF424A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A8DFD02B62CC6D00EF424A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				83A8DFC22B62CC6C00EF424A /* AppDelegate.swift */,
 				83D314452B717343000EDF83 /* CombineHelpers.swift */,
 				83A8DFC42B62CC6C00EF424A /* SceneDelegate.swift */,
-				83A8DFC62B62CC6C00EF424A /* ViewController.swift */,
 				83A8E03E2B67734100EF424A /* FeedUIComposer.swift */,
 				83624A272B7C390800BA7EF2 /* CommentsUIComposer.swift */,
 				83A8E0432B67734100EF424A /* FeedViewAdapter.swift */,
@@ -314,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A8DFC72B62CC6C00EF424A /* ViewController.swift in Sources */,
 				83D314462B717343000EDF83 /* CombineHelpers.swift in Sources */,
 				83A8DFC32B62CC6C00EF424A /* AppDelegate.swift in Sources */,
 				83A8E0452B67734100EF424A /* FeedViewAdapter.swift in Sources */,
